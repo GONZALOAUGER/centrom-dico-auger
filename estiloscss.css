@@ -1,0 +1,114 @@
+@charset "UTF-8";
+/* generales */
+
+html {
+  /* etiqueta raíz */
+  font-size: 62.5%; }
+
+* {
+  margin: 0px;
+  padding: 0px; }
+
+body {
+  font-family: 'Montserrat'; 
+    background:url(images/fondo358.jpg)no-repeat;
+    background-size: cover;
+}
+
+header nav .flexMenu {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  list-style: none;
+  justify-content: space-evenly;
+  padding: 40px;
+  font-size: 1.2rem; }
+
+.flexMenu li a {
+  text-decoration: none;
+  color: #4c00ff; }
+
+header h1 {
+    color: #1b1a1a;
+    font-size: 2.5rem;
+    text-align: center;
+    padding: 40px; }
+  
+
+header h2 {   color: #241ca0;
+    font-size: 2.5rem;
+    text-align: left;
+    padding: 40px; }
+  p{
+    color: rgb(22, 21, 22);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+}
+
+/*Grilla */
+.grid-container {
+  display: grid;
+  margin: 40px 0 40px 0;
+  grid-template-columns: repeat(4, 25%);
+  grid-template-rows: repeat(3, 200px);
+  gap: 1px 1px;
+  text-align: center;
+  justify-content: stretch;
+  font-size: 1.5rem;
+  grid-template-areas: "bannerUno bannerUno bannerUno bannerUno"
+ "noticiaDos noticiaDos noticiaTres noticiaCuatro"
+ "noticiaCinco noticiaSeis noticiaSiete noticiaCuatro"; }
+
+.bannerUno {
+  grid-area: bannerUno;
+  background-color: #EFF4F7; }
+
+.noticiaTres {
+  grid-area: noticiaTres;
+  background-color: #73CAEF;
+  text-align: center; }
+
+.noticiaDos {
+  grid-area: noticiaDos;
+  background-color: #89FFFB;
+  text-align: center; }
+
+.noticiaCuatro {
+  grid-area: noticiaCuatro;
+  background-color: #41E2DD;
+  text-align: center; }
+
+.noticiaCinco {
+  grid-area: noticiaCinco;
+  background-color: #50D8C8;
+  text-align: center; }
+
+.noticiaSeis {
+  grid-area: noticiaSeis;
+  background-color: #53B4F4;
+  text-align: center; }
+
+.noticiaSiete {
+  grid-area: noticiaSiete;
+  background-color: #CDE0E4;
+  text-align: center; }
+
+/* Footer */
+footer {
+  background-color: #54a7e2;
+  width: 100%;
+  height: 100px;
+  padding: 50px 0 0 0; 
+  text-align: center;
+}
+
+footer h5 {
+  font-size: 2rem;
+  font-weight: 900;
+  text-align: center; 
+} 
+
+#anuncio {
+    color: rgb(221, 38, 38);
+}
+
